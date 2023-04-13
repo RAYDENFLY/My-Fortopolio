@@ -9,10 +9,16 @@
     }*/
 body{
 	text-align: center !important;
+  height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 p{
 	margin-top: 20px;
 	font-size: 30px;
+  color: white;
 }
 input{
 	text-align: center;
@@ -21,4 +27,7 @@ input{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	border-radius: 5px;
+}
+.table{
+  color: white;
 }
